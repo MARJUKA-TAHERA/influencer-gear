@@ -1,0 +1,100 @@
+/* google font */
+body{
+    font-family: 'Courgette', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* common style */
+h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: #3A3A3A;
+
+}
+h2{
+    color: #3A3A3A;
+    font-weight: 700;
+}
+p{
+    color: #3A3A3A;
+    font-weight: 600;
+}
+span{
+    padding-left: 15px;
+}
+
+/* ------Influencer jurney style -----------*/
+.influencer-journey{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 120px;
+}
+.influencer-img img{
+    width: 100%;
+
+}
+.button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: whitesmoke;
+    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: #e98ec6;
+    padding: 14px 30px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+/*------ shop logo style -------*/
+.shop-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 200px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    
+}
+.logo img{
+    padding: 10px 20px;
+}
+
+/* -------popular collection style--------- */
+
+.popular-text{
+    text-align: center;
+    margin-bottom: 50px; ;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px;
+    grid-gap: 20px;
+
+ }
+ .product {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+ }
+ .product img{
+    width: 100%;
+    border-radius: 5px;
+ }
+ .fa-star, .fa-star-half-stroke{
+    color: #FB8200;
+    font-size: 12px;
+ }
+ 
