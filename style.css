@@ -6,6 +6,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
 }
 /* common style */
 h1{
@@ -97,4 +98,30 @@ span{
     color: #FB8200;
     font-size: 12px;
  }
- 
+ /* ------ featured-products style ------------ */
+ .featured-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 160px;
+
+ }
+
+ /* footer */
+ footer{
+    background-color: #1b1919;
+   text-align: center;
+   height: 300px;
+   width: 100%;
+   margin: 0 0 0 0;
+ }
+ .foot-text{
+    color: #FFFFFF;
+    padding-top: 100px;
+    font-size: 24px;
+ }
+ footer p{
+    color: #D9DBE1;
+    font-size: 14px;
+ }
